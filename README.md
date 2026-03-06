@@ -69,7 +69,7 @@ graph TD
 - SQLAlchemy (ORM)
 - MySQL Database
 - RabbitMQ (Message Broker)
-- Docker & Docker Compose
+- Docker & Docker Composes
 
 **Frontend:**
 - TypeScript
