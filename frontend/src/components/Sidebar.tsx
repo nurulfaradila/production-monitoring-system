@@ -7,12 +7,12 @@ interface SidebarProps {
 
 export default function Sidebar({ activeTab, onTabChange }: SidebarProps) {
     const menuItems = [
-        { icon: LayoutDashboard, label: "Control Center", id: "dashboard" },
-        { icon: BarChart3, label: "Floor Analytics", id: "analytics" },
-        { icon: Activity, label: "Operational Log", id: "realtime" },
-        { icon: Box, label: "Asset Tracking", id: "machines" },
-        { icon: AlertCircle, label: "Critical Alerts", id: "alerts" },
-        { icon: Settings, label: "System Config", id: "settings" },
+        { icon: LayoutDashboard, label: "Dashboard", id: "dashboard" },
+        { icon: BarChart3, label: "OEE Analytics", id: "analytics" },
+        { icon: Activity, label: "Historical Data", id: "realtime" },
+        { icon: Box, label: "Equipment Health", id: "machines" },
+        { icon: AlertCircle, label: "Anomalies & Alerts", id: "alerts" },
+        { icon: Settings, label: "Configuration", id: "settings" },
     ];
 
     return (

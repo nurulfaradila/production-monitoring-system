@@ -35,15 +35,9 @@ export default function Header({ isConnected }: HeaderProps) {
             <div className="flex items-center gap-4">
                 <nav className="flex" aria-label="Breadcrumb">
                     <ol className="inline-flex items-center space-x-1 md:space-x-3">
-                        <li className="inline-flex items-center">
-                            <span className="text-sm font-medium text-slate-400 hover:text-white cursor-pointer">
-                                Plant Facility
-                            </span>
-                        </li>
                         <li>
                             <div className="flex items-center">
-                                <span className="text-slate-600">/</span>
-                                <span className="ml-1 text-sm font-medium text-white md:ml-2">
+                                <span className="text-sm font-medium text-white">
                                     Production Monitoring
                                 </span>
                             </div>
