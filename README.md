@@ -67,6 +67,7 @@ graph TD
 - Python 3.10+
 - FastAPI
 - SQLAlchemy (ORM)
+- MySQL Database
 - RabbitMQ (Message Broker)
 - Docker & Docker Compose
 
