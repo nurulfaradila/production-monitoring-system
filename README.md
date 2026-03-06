@@ -145,7 +145,7 @@ curl -X POST http://localhost:8001/ingest \
 ## Example Output & Screenshots
 
 <div align="center">
-  <img src="./assets/dashboard-screenshot.png" alt="Dashboard UI Screenshot" width="800"/>
+  <img src="./assets/Screenshot.png" alt="Dashboard UI Screenshot" width="800"/>
 </div>
 
 > **Sample Log Event:**
