@@ -1,5 +1,16 @@
 # 🏭 Production Monitoring System
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![CI Status](https://github.com/nurulfaradila/manufacturing-backend/actions/workflows/ci.yml/badge.svg)
+
 ## Project Overview
 The **Production Monitoring System** is a highly scalable, real-time data pipeline and dashboard application designed to provide comprehensive visibility into production environment. Built with a robust microservices architecture, this system efficiently ingests, processes, and visualizes high-volume test data from production machines. It empowers engineering teams to monitor test results, enforce quality control rules, and optimize throughput with instant, data-driven insights.
 
