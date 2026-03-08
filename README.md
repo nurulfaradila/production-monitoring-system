@@ -1,13 +1,13 @@
-# 🏭 Manufacturing Monitoring System
+# 🏭 Production Monitoring System
 
 ## Project Overview
-The **Manufacturing Monitoring System** is a highly scalable, real-time data pipeline and dashboard application designed to provide comprehensive visibility into manufacturing floor operations. Built with a robust microservices architecture, this system efficiently ingests, processes, and visualizes high-volume test data from factory machines. It empowers manufacturing teams to monitor test results, enforce quality control rules, and optimize throughput with instant, data-driven insights.
+The **Production Monitoring System** is a highly scalable, real-time data pipeline and dashboard application designed to provide comprehensive visibility into production environment. Built with a robust microservices architecture, this system efficiently ingests, processes, and visualizes high-volume test data from production machines. It empowers engineering teams to monitor test results, enforce quality control rules, and optimize throughput with instant, data-driven insights.
 
 ## Key Features
-- **Real-Time Data Ingestion:** Collects raw test data directly from manufacturing equipment with minimal latency.
+- **Real-Time Data Ingestion:** Collects raw test data directly from production machines with minimal latency.
 - **Automated Validation & Processing:** Applies custom business rules on the fly to determine pass/fail statuses for every test.
 - **Live Broadcasting Integration:** Uses WebSockets to push real-time updates directly to the frontend dashboard.
-- **Asynchronous Architecture:** Implements a decoupled microservices pattern using message queues (RabbitMQ) to handle sudden spikes in factory data without dropping packets.
+- **Asynchronous Architecture:** Implements a decoupled microservices pattern using message queues (RabbitMQ) to handle sudden spikes in production data without dropping packets.
 - **Modern Responsive Dashboard:** A sleek, user-friendly SPA interface providing immediate visualization of production metrics and testing outcomes.
 
 ## System Architecture
