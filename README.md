@@ -74,19 +74,31 @@ graph TD
 - **Frontend Dashboard (React):** A modern frontend application acting as an interactive window into live, streaming production data.
 
 ## Technology Stack
-**Backend & Infrastructure:**
-- Python 3.10+
-- FastAPI
-- SQLAlchemy (ORM)
-- MySQL Database
-- RabbitMQ (Message Broker)
-- Docker & Docker Composes
 
-**Frontend:**
-- TypeScript
-- React & Vite
-- Tailwind CSS
-- Recharts (Data Visualization)
+### 💻 Frontend
+- **Framework:** React
+- **Build Tool:** Vite
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Data Visualization:** Recharts
+- **Icons:** Lucide React
+- **HTTP Client:** Axios
+
+### ⚙️ Backend
+- **Language:** Python
+- **Web Framework:** FastAPI
+- **ORM:** SQLAlchemy
+- **Data Validation:** Pydantic
+- **Message Broker Client:** aio-pika
+- **Real-time Communication:** WebSockets
+
+### 🗄️ Storage & Messaging
+- **Primary Database:** MySQL
+- **Message Broker:** RabbitMQ
+
+### 🚀 Infrastructure & DevOps
+- **Containerization:** Docker & Docker Compose
+- **CI/CD:** GitHub Actions
 
 ## Project Structure
 ```text
